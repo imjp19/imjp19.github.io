@@ -1,695 +1,449 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<!-- Your Website Title -->
+	<title>Jay Patel | Developer, Student</title>
+	<!-- Your Website Description -->
+	<meta name="description"
+		content="Jay Patel is a Web and App Developer. He is pursuing Bachelors in Computer Engineering at Sardar Vallabhbhai Patel Institute of Technology. " />
+	<meta name="author" content="Jay Patel">
 
-    <title>Jay Patel | Portfolio</title>
-    <meta content="Jay Patel-Portfolio(Full-stack Web Developer" name="descriptison">
-    <meta content="Jay Patel,jay patel,imjp19_,imjp19" name="keywords">
+	<!-- Meta Tags for Responsiveness -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Favicons -->
-    <link href="assets/img/logo1.png" rel="icon">
-    <link href="assets/img/logo.png" rel="apple-touch-icon">
+	<!-- Social Media Meta Tags -->
+	<meta property="og:url" content="http://wittyjay.dev/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Jay Patel | wittyjay.dev" />
+	<meta property="og:description"
+		content="Jay Patel is a Web and App Developer. He is pursuing Bachelors in Computer Engineering at Sardar Vallabhbhai Patel Institute of Technology. " />
+	<meta property="og:image" content="http://wittyjay.dev/assets/img/avatar.png" />
 
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/img/avatar.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144"
+		href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/jay.css" rel="stylesheet">
-    <style>
+	<!-- Bootstrap & Other CSS Files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+		integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
 
-    </style>
+	<!-- Project CSS File -->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
-
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/400db8db7c.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <!-- <div id="loading">
-        <img src="assets/img/loading-gif-android-12.gif" alt="gif">
-    </div> -->
-    <header id="header">
-        <div class="d-flex flex-column">
-            <div class="profile">
-                <img src="assets/img/dp.jpg" alt="JAY PATEL" class="img-fluid rounded-circle">
-                <h1 class="text-light"><a href="jay.html">Jay Patel</a></h1>
-                <div class="social-links mt-3 text-center">
-                    <a href="https://twitter.com/imjp19_" target="_blank" class="twitter"><i
-                            class="bx bxl-twitter"></i></a>
-                    <a href="https://www.facebook.com/imjp19" target="_blank" class="facebook"><i
-                            class="bx bxl-facebook"></i></a>
-                    <a href="https://www.instagram.com/imjp19_" target="_blank" class="instagram"><i
-                            class="bx bxl-instagram"></i></a>
-                    <a href="https://github.com/imjp19" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-                    <a href="https://linkedin.com/in/imjp19" target="_blank" class="linkedin"><i
-                            class="bx bxl-linkedin"></i></a>
-                    <!-- <a href="https://api.whatsapp.com/send?phone=+919879726851." target="_blank" class="whatsapp"><i class="bx bxl-whatsapp"></i></a> -->
-                    <!-- <a href="mailto:jaypatel19124@gmail.com" target="_blank" class="gmail"><i class="bx bxl-google"></i></a> -->
-
-
-                </div>
-            </div>
-            <nav class="nav-menu">
-                <ul>
-                    <li><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
-                    <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-                    <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-                    <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
-
-                    <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-
-                </ul>
-            </nav><!-- .nav-menu -->
-            <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
-        </div>
-
-    </header>
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-        <div class="hero-container" data-aos="fade-in">
-            <h1>Jay Patel</h1>
-            <p>I'm <span class="typed" data-typed-items="Eng. Student, Web Dev, BDA, Digital Marketer"></span></p>
-        </div>
-    </section><!-- End Hero -->
-    <main id="main">
-
-        <!-- ======= About Section ======= -->
-        <section id="about" class="about">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>About</h2>
-                    <p>Hello I am <strong>Jay Patel</strong> a <strong>Full-stack Web Developer</strong> and
-                        <strong>Flutter</strong> enthusiast.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4" data-aos="fade-right">
-                        <img src="assets/img/dp.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                        <h3>Full-stack Web Developer.</h3>
-                        
-                        <br>
-
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 19th December, 2001</li>
-                                    
-                                    <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +91-9879726851
-                                    </li>
-                                    <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Vadodara,Gujarat,India</li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 18</li>
-                                    <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Pursuing (B.E.
-                                        Computer Eng.)</li>
-                                    <li><i class="icofont-rounded-right"></i>
-                                        <strong>Email:</strong>jaypatel19124@gmail.com</li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <br>
-                        <p>
-                            I am a entry <strong> Web Developer</strong> with a passion of learning and developing
-                            Web Applications. I am self motivated person and have a courage to difficult
-                            tasks. I am also good <strong>Digital Marketer and Social Media Marketer</strong>.
-                        </p>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!-- End About Section -->
-        <!-- ======= Skills Section ======= -->
-        <section id="skills" class="skills section-bg">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Skills</h2>
-                    <p>I have Personal Skills like Creative Spirit, Organized, Time Managment, Team Player, Fast
-                        Learner, Motivated, Anger Managment,Networking Skills, Good Communication Skill, Can do
-                        multi-task.</p>
-                </div>
-
-                <div class="row skills-content">
-
-                    <div class="col-lg-6" data-aos="fade-up">
-
-                        <div class="progress">
-                            <span class="skill">HTML <i class="val">90%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress">
-                            <span class="skill">CSS <i class="val">90%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress">
-                            <span class="skill">JavaScript <i class="val">50%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">C Program <i class="val">95%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-                        <div class="progress">
-                            <span class="skill">.NET <i class="val">80%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress">
-                            <span class="skill">BOOTSTRAP <i class="val">90%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress">
-                            <span class="skill">SQLServer <i class="val">60%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">Digital Marketing <i class="val">75%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Skills Section -->
-        <!-- ======= Resume Section ======= -->
-        <section id="resume" class="resume">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Resume</h2>
-
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-6" data-aos="fade-up">
-                        <h3 class="resume-title">Sumary</h3>
-                        <div class="resume-item pb-1">
-                            <h4>Jay Patel</h4>
-                            <p><em>I have 1+ years of experience in web designing and developing. Also I have 6+ months
-                                    of experience in Digital Marketing.</em></p>
-                            <ul>
-                                <li>Vadodara,Gujarat,India</li>
-                                <li>+91-9879726851</li>
-                                <li>jaypatel19124@gmail.com</li>
-                            </ul>
-                        </div>
-
-                        <h3 class="resume-title">Education</h3>
-                        <div class="resume-item">
-                            <h4>Bechelor of Engineering COMPUTER ENGINEERING</h4>
-                            <h5>2019 - 2023</h5>
-                            <p><a href="https://svitvasad.ac.in"><em>Sardar Vallabhbhai Patel Institute of Technology</em></a><em>, Vasad</em></p>
-
-                        </div>
-                        <div class="resume-item">
-                            <h4>H.S.C.( SCIENCE )</h4>
-                            <h5>2018 - 2019</h5>
-                            <p><a href="#"><em>Arpi Science School</em></a><em>, Muval</em></p>
-                            <p>Gujarat Higher Secondary Board, Gujarat (Gujarati Medium)</p>
-                            <p><strong>Percentage</strong></p>
-                            <p><em>72.15%</em></p>
-
-                        </div>
-                        <div class="resume-item">
-                            <h4>S.S.C.</h4>
-                            <h5>2016 - 2017</h5>
-                            <p><a href="https://zenschools.org"><em>Zen School</em></a><em>, Padra</em></p>
-                            <p>Gujarat Secondary Board, Gujarat (Gujarati Medium)</p>
-                            <p><strong>Percentage</strong></p>
-                            <p><em>78.16%</em></p>
-
-                        </div>
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-                            <h3 class="resume-title">Documentory/Certificate</i></h3>
-                            <div class="resume-item">
-                                <h4>Download Resume</h4>
-                                <a href="http://resume.imjp19.codes/" target="_blank">Jay Resume</a>
-                            </div>
-                            <div class="resume-item">
-                                <h4>SSIP SGH Hackathon</h4>
-                                <a href="https://drive.google.com/file/d/1PFXCNtRA5yazHOs_nL1MZcAHSc7es2NM/view?usp=sharing" target="_blank">SSIP SGH Hackathon Certificate</a>
-                                <p>Problem Statement: <em>Hostel Managment System (GEC, Patan)</em></p>
-                                <ul>
-                                    <li>36 hours hackathon.</li>
-                                    <li>Organized by <em>SSIP &amp; Gujarat Knowledge Scoiety</em></li>
-                                </ul>
-                            </div>
-                            <div class="resume-item">
-                                <h4>Organizer | <em>Code Loops</em></h4>
-                                <a href="https://drive.google.com/open?id=1uQKi3Biirs5egl86h4DxpU0ADVnCLaO1" target="_blank">Certificate</a>
-                                <p>Organized <em>Code Loops</em> Online contest on HACKERBLOCK with Coding Blocks.</p>
-                                <ul>
-                                    <li>Organized by <a href="https://www.instagram.com/cb_vadodara" target="_blank"><em>Coding Blocks Vadodara Community</em></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="resume-title">Professional Experience</h3>
-                        <div class="resume-item">
-                            <h4>Web development</h4>
-                            <h5>May-2019 - Present</h5>
-                            <p><em>The One Web Technology, Vadodara </em></p>
-                            <ul>
-                                <li>Have an experience of 1 year as a full-stack developer in training.</li>
-                                <li>Have designed responsive web layouts </li>
-                                <li>Have designed multiple Login and Signup page using simple HTML5 and CSS.</li>
-                                <li>Have worked on database related stuff using SQL SERVER.</li>
-                            </ul>
-                        </div>
-                        <div class="resume-item">
-                            <h4>Campus Ambassador</h4>
-                            <h5>March-2020 - Present</h5>
-                            <p><a href="https://www.codingblocks.com"><em>Coding Blocks</em></a></p>
-                            <ul>
-                                <li>Campus Ambassador of Coding Blocks at SVIT, Vasad.</li>
-                            </ul>
-                        </div>
-                        <div class="resume-item">
-                            <h4>Campus Ambassador</h4>
-                            <h5>March-2020 - Present</h5>
-                            <p><a href="https://www.gigindia.com"><em>GigIndia</em></a></p>
-                            <ul>
-                                <li>Campus Ambassador of GigIndia.</li>
-                            </ul>
-                        </div>
-                        <div class="resume-item">
-                            <h4>Business development Associate</h4>
-                            <h5>Dec-2019 - Present</h5>
-                            <p><a href="https://www.theonewebtechnology.com"><em>The One Web Technology</em></a><em>, Vadodara</em></p>
-
-                        </div>
-                        <div class="resume-item">
-                            <h4>CEO & Founder</h4>
-                            <h5>Nov-2019 - Present</h5>
-                            <p><a href="https://www.instagram.com/budget_free"><em>Budget Free</em></a></p>
-                            <ul>
-                                <li>Budget Free is basically Digital Marketing Company.</li>
-                                <li>Here I promote and market the local business.</li>
-
-                            </ul>
-                        </div>
-
-                        <div class="resume-item">
-                            <h4>CEO & Founder</h4>
-                            <h5>Nov-2019 - Present</h5>
-                            <p><a href="https://www.instagram.com/Notesforevery1"><em>Notesforevery1</em></a></p>
-                            <ul>
-                                <li>Notesforevery1 is platform where you can buy eBooks for engineering student.</li>
-                                <li>Here I sell online eBooks ,eNotes for engineering student.</li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!-- End Resume Section -->
-        <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio section-bg">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Portfolio</h2>
-                    <p>I made some Projects, UI-UX, Designs in my learning time and also for my PORTFOLIO.</p>
-                </div>
-
-                <div class="row" data-aos="fade-up">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-UI-UX">UI-UX</li>
-                            <li data-filter=".filter-java">Java</li>
-                            <li data-filter=".filter-web">Web</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-UI-UX">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/DARK-UI-1.PNG" class="img-fluid" alt="DARK-UI">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/DARK-UI-1.PNG" data-gall="portfolioGallery"
-                                    class="venobox" title="UI-UX 1"><i class="bx bx-plus"></i></a>
-                                <a href="https://imjp19.github.io/clock-dark-ui/" target="_blank"
-                                    title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/home-2.PNG" class="img-fluid" alt="Hostel Managment System">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/home-2.PNG" data-gall="portfolioGallery" class="venobox"
-                                    title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="#" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-UI-UX">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/WHITE-UI-3.PNG" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/WHITE-UI.PNG-3" data-gall="portfolioGallery"
-                                    class="venobox" title="UI-UX 2"><i class="bx bx-plus"></i></a>
-                                <a href="https://imjp19.github.io/clock-white-UI/" target="_blank"
-                                    title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-java">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/JAVA-4.PNG" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/JAVA-4.PNG" data-gall="portfolioGallery" class="venobox"
-                                    title="Java 2"><i class="bx bx-plus"></i></a>
-                                <a href="https://imjp19-calculator.netlify.app/" target="_blank" title="More Details"><i
-                                        class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>  
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-UI-UX">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/PROGRESS-5.PNG" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/PROGRESS-5.PNG.jpg" data-gall="portfolioGallery"
-                                    class="venobox" title="UI-UX-3"><i class="bx bx-plus"></i></a>
-                                <a href="https://imjp19.github.io/progress-UI/" title="More Details" target="_blank"><i
-                                        class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-UI-UX">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/BUTTON-6.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/BUTTON-6.jpg" data-gall="portfolioGallery" class="venobox"
-                                    title="UI-UX-4"><i class="bx bx-plus"></i></a>
-                                <a href="https://imjp19.github.io/button_hover/" target="_blank" title="More Details"><i
-                                        class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/web-7.PNG" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/web-7.PNG" data-gall="portfolioGallery" class="venobox"
-                                    title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="https://imjp19.github.io/web-template/" target="_blank" title="More Details"><i
-                                        class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Portfolio Section -->
-        <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials section-bg">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Testimonials</h2>
-
-                </div>
-
-                <div class="owl-carousel testimonials-carousel">
-
-                    <div class="testimonial-item" data-aos="fade-up">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                            Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/1.jpg" class="testimonial-img" alt="">
-                        <h3><a href="https://www.instagram.com/kuldeepvirpura/" target="_blank">Kuldeep Virpura</a></h3>
-                        <h4>CEO  &amp; Founder</h4>
-                        <h4><strong>The One Web Technology</strong></h4>
-
-                    </div>
-
-                    <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            I Have Seen Some Great Creative Web Designer and <br><strong>Jay</strong> is One of Them.
-                            He is Creative Enough to Take Challanges and Prove his Creativity.
-                            He Had Done Many Unique Web Design Templates.
-
-                            Working with him is great experiance.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/2.jpg" class="testimonial-img" alt="">
-                        <h3><a href="https://www.instagram.com/megha_rathod__/" target="_blank">Megha Rathod</a></h3>
-                        <h4>BDA Manager</h4>
-                        <h4><strong>The One Web Technology</strong></h4>
-
-                    </div>
-
-                    <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                           When you choose <strong>Jay Patel</strong> you get <br>a wonderful, professional mentality with innovative ideas, awesome <br>customer service, and exactly what <br>you’re looking for. He took the ideas that we had and put them perfectly on the web.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/3.jpg" class="testimonial-img" alt="">
-                        <h3><a href="https://www.instagram.com/thisissmitpatel_/" target="_blank">Smit Patel</a></h3>
-                        <h4>Colleague</h4>
-                        <h4><strong>Full-stack Web Dev</strong></h4>
-                    </div>
-
-                    <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            <strong>Jay Patel</strong>. The one person whom I have met only once.<br> But whenever there is an
-                            opportunity for growth, he is first in the line. He is always there to help the community
-                            and whenever there is opportunity, there is <br><strong>Jay Patel</strong>
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/4.jpeg" class="testimonial-img" alt="">
-                        <h3><a href="https://www.instagram.com/_abhishek_doshi/" target="_blank">Abhishek Doshi</a></h3>
-                        <h4>Colleague</h4>
-                        <h4><strong>Flutter Dev</strong></h4>
-
-
-                    </div>
-
-                    <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Jay has fully dedicated person who has self motivated and passionate explore his knowledge.
-                            I saw his enthusiasm of learning new things from FY of engineering.
-                            I am very impressed by his communication skill as well as excited to learning technical
-                            things .
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/6.jpg" class="testimonial-img" alt="">
-                        <h3><a href="https://www.instagram.com/shardul_dabgar/" target="_blank">Shardul Dabgar</a></h3>
-                        <h4>Colleague</h4>
-                        <h4><strong>Web Designer</strong></h4>
-                    </div>
-                    <!-- <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam
-                            enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore
-                            nisi cillum quid.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                        <h3>Shaileshkumar Patel</h3>
-                        <h4>Businessman</h4>
-                        <h4><strong>LIC of India</strong></h4>
-                    </div> -->
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Testimonials Section -->
-        <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Contact</h2>
-                    <p>Feel free to contact me.
-                        <br>Also Contact me for Collaboration.</p>
-                </div>
-
-                <div class="row" data-aos="fade-in">
-
-                    <div class="col-lg-5 d-flex align-items-stretch">
-                        <div class="info">
-                            <div class="address">
-                                <i class="icofont-google-map"></i>
-                                <h4>Location:</h4>
-                                <p>Kural, Padra, Vadodara, Gujarat, India, 391430</p>
-                            </div>
-
-                            <div class="email">
-                                <i class="icofont-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>jaypatel19124gmail.com</p>
-                            </div>
-
-                            <div class="phone">
-                                <i class="icofont-phone"></i>
-                                <h4>Call:</h4>
-                                <p>+91-9879726851</p>
-                            </div>
-
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3695.6379178388615!2d72.9249542!3d22.1397769!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9ed3176cf1060c4e!2sJay%20Patel!5e0!3m2!1sen!2sin!4v1585461866927!5m2!1sen!2sin"
-                                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="name">Your Name</label>
-                                    <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
-                                        data-msg="Please enter at least 4 chars" />
-                                    <div class="validate"></div>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="name">Your Email</label>
-                                    <input type="email" class="form-control" name="email" id="email" data-rule="email"
-                                        data-msg="Please enter a valid email" />
-                                    <div class="validate"></div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="name">Subject</label>
-                                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
-                                    data-msg="Please enter at least 8 chars of subject" />
-                                <div class="validate"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="name">Message</label>
-                                <textarea class="form-control" name="message" rows="10" data-rule="required"
-                                    data-msg="Please write something for us"></textarea>
-                                <div class="validate"></div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
-                            </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
-                        </form>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Contact Section -->
-    </main><!-- End #main -->
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="container">
-            <div class="copyright">
-                &copy; 2020 <a href="jay.html"><strong><span>Jay Patel</span></strong></a>
-            </div>
-            <div class="message">
-
-                &lt; &gt; with ♥ By <a href="https://instagram.com/imjp19_" target="_blank"><strong>imjp19_</strong></a>
-            </div>
-        </div>
-    </footer><!-- End  Footer -->
-
-    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-    <!--Scripts-->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="assets/vendor/counterup/counterup.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/venobox/venobox.min.js"></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendor/typed.js/typed.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
-    <!-- Template Main JS File-->
-    <script src="assets/js/main.js"></script>
-
+<body onclick="colourChange()">
+	<!-- Page Wrapper -->
+	<div class="page-wrapper">
+		<!-- Header -->
+		<header>
+			<div class="logo animate">
+				<a href="https://jay.dev">
+					<img class="img-responsive" width="80%" height="auto" src="assets/img/avatar.png" alt="jay">
+				</a>
+			</div>
+		</header>
+
+		<!-- Content Wrapper -->
+		<div class="content-wrapper">
+			<div class="content-main animate">
+				<div class="container">
+					<h1 class="page-title">Hi, I'm Jay!</h1>
+					<!-- <h2 style="font-weight: 700;">Open Source | Developer Relations</h2> -->
+					<div class="wrapper-text">
+						<p class="flipText">Web Dev 👨‍💻</p>
+					</div>
+				</div>
+			</div>
+			<!-- Background Wrapper -->
+			<div class="background-wrapper">
+				<div id="background-content"></div>
+			</div>
+		</div>
+
+		<!-- Menu -->
+		<div class="menu">
+			<button class="nav-tgl" type="button" aria-label="toggle menu">
+				<span aria-hidden="true"></span>
+			</button>
+			<div class="nav">
+				<div class="header">
+					<div class="logo animate">
+						<a href="https://jay.dev">
+							<img class="img-responsive" width="80%" height="auto" src="assets/img/avatar.png" alt="jay">
+						</a>
+					</div>
+				</div>
+				<div class="nav-content">
+					<a href="" data-toggle="modal" data-target="#modal-about" class="nav-item1">
+						<h1 class="nav-link">About</h1>
+					</a>
+					<a href="" data-toggle="modal" data-target="#modal-projects" class="nav-item2">
+						<h1 class="nav-link">Projects</h1>
+					</a>
+				
+					<a href="" data-toggle="modal" data-target="#modal-connect" class="nav-item3">
+						<h1 class="nav-link">Let's Connect!</h1>
+					</a>
+				</div>
+				<div class="footer">
+					<div class="social-icons animate">
+						<a href="https://twitter.com/imjp19_" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a href="https://instagram.com/wittyjay.dev" target="_blank"><i class="fa fa-instagram"></i></a>
+						<a href="https://github.com/imjp19" target="_blank"><i class="fa fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/imjp19/" target="_blank"><i class="fa fa-linkedin"></i></a>
+						<a href="https://discord.gg/kRXJjcWj" target="_blank"><i class="fab fa-discord"></i></a>
+						<a href="https://www.youtube.com/c/JayPatel19" target="_blank"><i class="fa fa-youtube"></i></a>
+						<a href="mailto:jaypatel19124@gmail.com" target="_blank"><i
+								class="fa fa-envelope-open-text"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<div class="social-icons animate">
+				<a href="https://twitter.com/imjp19_" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="https://instagram.com/wittyjay.dev" target="_blank"><i class="fa fa-instagram"></i></a>
+				<a href="https://github.com/imjp19" target="_blank"><i class="fa fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/imjp19/" target="_blank"><i class="fa fa-linkedin"></i></a>
+				<a href="https://discord.gg/kRXJjcWj" target="_blank"><i class="fab fa-discord"></i></a>
+				<a href="https://www.youtube.com/c/JayPatel19" target="_blank"><i class="fa fa-youtube"></i></a>
+				<a href="mailto:jaypatel19124@gmail.com" target="_blank"><i class="fa fa-envelope-open-text"></i></a>
+			</div>
+		</footer>
+	</div>
+
+	<!-- About Modal -->
+	<div class="modal fade" id="modal-about" tabindex="-1" role="dialog" aria-labelledby="modal-about-label">
+		<div class="modal-dialog" role="document">
+			<div class="container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title" id="modal-about-label">About</h2>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<!-- Left Col for Introduction -->
+							<div class="col-md-3" style="overflow: hidden; ">
+								<div class="person">
+									<div class="image">
+										<img class="img-responsive" src="assets/img/jay1.png" alt="jay">
+									</div>
+									<h4>Jay Patel</h4>
+									<h5>Developer | Student</h5>
+									<h5><a href="mailto:jaypatel19124@gmail.com" target="_blank">jaypatel19124@gmail.com</a></h5>
+									<h5><i class="fa fa-map-marker"></i><span style="padding-left: 8px;">Vadodara, GJ,
+											India</span></h5>
+									<div class="social-icons" style="margin-left: -0.3125rem;">
+										<a href="https://twitter.com/imjp19_" target="_blank"><i
+												class="fa fa-twitter"></i></a>
+										<a href="https://github.com/imjp19" target="_blank"><i
+												class="fa fa-github"></i></a>
+										<a href="https://www.linkedin.com/in/imjp19/" target="_blank"><i
+												class="fa fa-linkedin"></i></a>
+										<a href="https://instagram.com/wittyjay.dev" target="_blank"><i
+												class="fa fa-instagram"></i></a>
+
+									</div>
+									<br>
+									<h4><strong>Skills</strong></h4>
+									<hr style="border-top: 1px solid black;" />
+									<div class="social-icons-tech" style="margin-left: -0.3125rem;">
+										<i class="devicon-html5-plain colored"></i>
+										<i class="devicon-css3-plain colored"></i>
+										<i class="devicon-javascript-plain colored"></i>
+										<i class="devicon-nodejs-plain colored"></i>
+										<i class="devicon-flutter-plain colored"></i>
+										<i class="devicon-dart-plain colored"></i>
+										<br>
+										<i class="devicon-java-plain colored"></i>
+										<i class="devicon-c-plain"></i>
+										<i class="devicon-mongodb-plain-wordmark colored"></i>
+										<i class="devicon-git-plain colored"></i>
+										<i class="devicon-bootstrap-plain colored"></i>
+										<i class="devicon-python-plain colored"></i>
+									</div>
+									<hr style="border-top: 1px solid black;" />
+
+								</div>
+							</div>
+
+							<!-- Right Col for Description -->
+							<div class="col-md-9">
+								<section>
+									<p>
+										I am Jay Patel. Technically I am a second-year Computer Engineering student at
+										Sardar Vallabhbhai Patel Institute of Technology. I am a beginner MERN
+										developer. Basically, I am a Hackathon enthusiast and I love to be a part of the
+										community. Nowadays in the pandemic, I started my journey with hackathons for
+										building something innovative in time boundary. It helps me to learn new things
+										and apart from that I could know my limits, mistakes, knowledge. I am Looking
+										forward to my own start-up. Building new things and debugging code is my daily
+										good habit. And develop something new for society is my duty. I believe in smart
+										work with a little bit of hard work. My goal is to update and develop myself
+										daily.
+									</p>
+								
+								</section>
+								<section>
+									<h3>Current Role</h3>
+									<div class="item">
+										<!-- SVIT -->
+										<div class="row">
+											<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+												<a href="https://svitvasad.ac.in/" target="_blank"><img
+														class="img-responsive" src="assets/img/svit.png" alt="svit"
+														style="margin-left: 0; width: 100%; margin-bottom: 10px;"></a>
+											</div>
+											<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+												<h4>Computer Engineering | Student</h3>
+													<h5><a href="https://svitvasad.ac.in" target="_blank">Sardar
+															Vallabhbhai Patel Institute of Technology</a></h5>
+												</h4>
+												<h5><i class="fa fa-map-marker"></i><span
+														style="padding-left: 8px;">Gujarat, India</span></h5>
+												<p>
+													I am currently pursuing my Bachelors in Computer Engineering at
+													Sardar Vallabhbhai Patel Institute of Technology, Vasad.
+													As a student I am a part of many technical and non-technical
+													communities/clubs like MozNurouns, NSS-SVIT, SDC, etc...
+												</p>
+											</div>
+										</div>
+										<!-- CB -->
+										<div class="row">
+											<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+												<a href="https://mlh.io"><img class="img-responsive"
+														src="assets/img/cb1.png" alt="Coding Blocks"
+														style="margin-left: 0; width:100%; margin-bottom: 10px;"></a>
+											</div>
+											<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+												<h4>Campus Ambassador</h3>
+													<h5><a href="https://cb.lk/" target="_blank">Coding Blocks</a></h5>
+												</h4>
+												<h5><i class="fa fa-map-marker"></i><span
+														style="padding-left: 8px;">Remote | India</span></h5>
+												<p>
+													- Promotion of Coding Blocks on my campus.
+													<br>
+													- Creating awareness and sharing details about new courses, events,
+													boot camps, etc. on social media and on-campus
+													<br>
+													- Conducting Coding Blocks workshops and online hackathons at my
+													campus.
+													<br>
+													- Create programming contests on HackerBlocks - the online platform
+													of Coding Blocks.
+													<br>
+													- I organized 15+ online workshops till now.
+												</p>
+											</div>
+										</div>
+										<!-- GIVEMYCERTIFICATE -->
+										<div class="row">
+											<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+												<a href="https://mlh.io"><img class="img-responsive"
+														src="assets/img/givemycerti.png" alt="Give My Certificate"
+														style="margin-left: 0; width: 100%; margin-bottom: 10px;"></a>
+											</div>
+											<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+												<h4>Campus Ambassador</h3>
+													<h5><a href="https://givemycertificate.com/" target="_blank">Give My
+															Certificate</a></h5>
+												</h4>
+												<h5><i class="fa fa-map-marker"></i><span
+														style="padding-left: 8px;">Remote | India</span></h5>
+												<p>
+
+												</p>
+											</div>
+										</div>
+
+										<h3>Previously</h3>
+										<div class="row" style="text-align: center;">
+											<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+												<a href="https://thepythonweek.tech/" target="_blank">
+													<img class="img-responsive" src="assets/img/TPW.png"
+														style="max-width: 100%;" alt="The Python Week">
+													<h5>Technical Lead | Organizer</h5>
+												</a>
+											</div>
+										
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Projects Modal -->
+	<div class="modal fade" id="modal-projects" tabindex="-1" role="dialog" aria-labelledby="modal-projects-label">
+		<div class="modal-dialog" role="document">
+			<div class="container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title" id="modal-projects-label">Projects</h2>
+					</div>
+					<div class="modal-body">
+						<!-- Project Category 1 -->
+						<div style="margin-bottom: 1.875rem;">
+							<h3>Contribution Projects</h3>
+							<p>
+								In this projects I contributed as a some portion of code or module.
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-sm-4">
+								<div class="vision-x card">
+									<div class="wrapper">
+										<div class="data">
+											<div class="content">
+												<span class="type">Contribution Projects</span>
+												<h3 class="title"><a target="_blank" href="https://cevision.tech/">CE
+														Vision X</a></h3>
+												<i class="icon"></i>
+												<p class="text"><b>VISION</b> is inter-department at SVIT. In 2020 our
+													Computer department organized <b>VISION X</b> virtual because of the
+													<i>COVID-19</i>. I contributed as a volunteer in the VISION X. I
+													worked on registration process mainly. </p>
+
+												<label for="show-menu" class="menu-button"><a target="_blank"
+														href="https://cevision.tech/"><i
+															class="fa fa-chain"></i></a></label>
+											</div>
+											<input type="checkbox" id="show-menu" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="prakarsh card">
+									<div class="wrapper">
+										<div class="data">
+											<div class="content">
+												<span class="type">Contribution Projects</span>
+												<h3 class="title"><a target="_blank" href="https://www.prakarsh.org/">
+												PRAKARSH XVI</a></h3>
+												<i class="icon"></i>
+												<p class="text"><b>PRAKARSH XVI</b> is national level technical symposium at SVIT. In 2021 our
+													college organized <b>PRAKARSH XVI</b> virtual because of the
+													<i>COVID-19</i>. I contributed as a volunteer in the PRAKARSH XVI. I
+													worked on reciept generator and sender with the use of nodemailer and pdfmaker packages.</p>
+
+												<label for="show-menu" class="menu-button"><a target="_blank"
+														href="https://www.prakarsh.org/"><i
+															class="fa fa-chain"></i></a></label>
+											</div>
+											<input type="checkbox" id="show-menu" />
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<div style="margin-bottom: 1.875rem;">
+							<h3>Hackathon Projects</h3>
+							<p>Coming soon...</p>
+						</div>
+						
+						
+					
+						<h3>Looking for more? These are just a very select few of my many projects on
+							<a href="https://github.com/imjp19">GitHub</a>!
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Connect -->
+	<div class="modal fade" id="modal-connect" tabindex="-1" role="dialog" aria-labelledby="modal-projects-label">
+		<div class="modal-dialog" role="document">
+			<div class="container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title" id="modal-connect-label" style="text-align: center;">Connect</h2>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-4"></div>
+							<div class="col-md-4" style="text-align: center;">
+
+								<div class="social-icons animate" style="
+								
+								padding: .3125rem .625rem;
+								display: inline-block;
+								font-size: 1.125rem;">
+									<a href="https://twitter.com/imjp19_" target="_blank"><i
+											class="fa fa-twitter"></i></a>
+									<a href="https://instagram.com/wittyjay.dev" target="_blank"><i
+											class="fa fa-instagram"></i></a>
+									<a href="https://github.com/imjp19" target="_blank"><i class="fa fa-github"></i></a>
+									<a href="https://www.linkedin.com/in/imjp19/" target="_blank"><i
+											class="fa fa-linkedin"></i></a>
+									<a href="https://discord.gg/kRXJjcWj" target="_blank"><i
+											class="fab fa-discord"></i></a>
+									<a href="https://www.youtube.com/c/JayPatel19" target="_blank"><i
+											class="fa fa-youtube"></i></a>
+									<a href="mailto:jaypatel19124@gmail.com" target="_blank"><i
+											class="fa fa-envelope-open-text"></i></a>
+
+								</div>
+
+							</div>
+							<div class="col-md-4"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Bootstrap Scripts -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+		integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"
+		integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+		crossorigin="anonymous"></script>
+	<!-- Sketch.js -->
+	<script src="assets/js/sketch.min.js"></script>
+
+	<!-- Project JS File -->
+	<script src="assets/js/script.js"></script>
 </body>
 
 </html>
