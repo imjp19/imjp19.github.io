@@ -465,7 +465,22 @@
 		crossorigin="anonymous"></script>
 	<!-- Sketch.js -->
 	<script src="assets/js/sketch.min.js"></script>
-	
+	<script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbx984vER3yBGDicTphNNTR_ViR9972CkfS4z1sHq1KsCN5hltWwRlSaGp1R1UrucK4/exec'
+
+		const form = document.getElementsByClassName('contact-form')
+		const btnForm = document.getElementById('submit-btn')
+
+		btnForm.addEventListener('click', e => {
+			e.preventDefault()
+			fetch(scriptURL, {
+					method: 'POST',
+					body: new FormData(form[0])
+				})
+				.then(response => console.log(""))
+				.catch(error => console.error('Error!', error.message))
+		})
+	</script>
 	<!-- Project JS File -->
 	<script src="assets/js/script.js"></script>
 
