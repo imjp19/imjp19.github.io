@@ -15,3 +15,7 @@
 Some Advance Stats about my GitHub Profile - https://gitstats.me/imjp19<br>
   
 </details>
+
+## Credits
+Thanks to [Yashovardhan](https://www.yashovardhan.dev/)
+Original repo : [here](https://github.com/yashovardhan/personal-website)
