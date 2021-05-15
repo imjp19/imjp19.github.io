@@ -181,7 +181,7 @@ function fetchData() {
         setTimeout(
             function() {
                 document.getElementById("Invincible").click();
-            }, 4000);
+            }, 500);
     }
 }
 setTimeout(fetchData, 3000);
