@@ -186,7 +186,7 @@ function fetchData() {
 }
 setTimeout(fetchData, 3000);
 
-const scriptURLHidden = 'https://script.google.com/macros/s/AKfycbx984vER3yBGDicTphNNTR_ViR9972CkfS4z1sHq1KsCN5hltWwRlSaGp1R1UrucK4/exec';
+const scriptURLHidden = 'https://script.google.com/macros/s/AKfycbwfEHRRM1_w-_bwM0dsYeySjWdeIk2sgqWdSXM/exec';
 
 const formHidden = document.getElementsByClassName('hidden-form')
 const btnFormHidden = document.getElementById('Invincible')
