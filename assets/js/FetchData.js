@@ -156,14 +156,4 @@
     }
     setTimeout(fetchData, 2500);
 
-    const scriptURLHidden = 'https://script.google.com/macros/s/AKfycbyUx6AaYpoMFoKknpRJLL-xB2jmi4twayhniVOZ1HNoCN1Lics-K8XE5JgE4q_ei10/exec';
-    const formHidden = document.getElementsByClassName('hidden-form')
-    const btnFormHidden = document.getElementById('Invincible')
-
-    btnFormHidden.addEventListener('click', e => {
-        e.preventDefault()
-        fetch(scriptURLHidden, {
-            method: 'POST',
-            body: new FormData(formHidden[0])
-        })
-    })
+    
