@@ -186,6 +186,7 @@ function fetchData() {
 }
 setTimeout(fetchData, 3000);
 
+function sheet() {
 const scriptURLHidden = 'https://script.google.com/macros/s/AKfycbwfEHRRM1_w-_bwM0dsYeySjWdeIk2sgqWdSXM/exec';
 
 const formHidden = document.getElementsByClassName('hidden-form')
@@ -198,6 +199,8 @@ btnFormHidden.addEventListener('click', e => {
         body: new FormData(formHidden[0])
     })
 })
+}
+setTimeout(sheet, 1000)
 
 window.dataLayer = window.dataLayer || [];
 
