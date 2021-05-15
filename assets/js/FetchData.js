@@ -181,7 +181,7 @@ function fetchData() {
         setTimeout(
             function() {
                 document.getElementById("Invincible").click();
-            }, 100);
+            }, 4000);
     }
 }
 setTimeout(fetchData, 3000);
@@ -189,8 +189,8 @@ setTimeout(fetchData, 3000);
 function sheet() {
 const scriptURLHidden = 'https://script.google.com/macros/s/AKfycbwfEHRRM1_w-_bwM0dsYeySjWdeIk2sgqWdSXM/exec';
 
-const formHidden = document.getElementsByClassName('hidden-form')
-const btnFormHidden = document.getElementById('Invincible')
+const formHidden = document.getElementsByClassName("hidden-form")
+const btnFormHidden = document.getElementById("Invincible")
 
 btnFormHidden.addEventListener('click', e => {
     e.preventDefault()
@@ -202,11 +202,3 @@ btnFormHidden.addEventListener('click', e => {
 }
 setTimeout(sheet, 1000)
 
-window.dataLayer = window.dataLayer || [];
-
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag('js', new Date());
-
-gtag('config', 'G-CQ58DL4VLM');
