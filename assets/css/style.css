@@ -385,6 +385,26 @@ footer .social-icons a:hover {
   background-size: 100% 100%;
 }
 
+.shelterhero .wrapper {
+  background: url("../img/shelter-hero.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.antibroke-engine .wrapper {
+  background: url("../img/antibroke-engine.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.youwill .wrapper {
+  background: url("../img/youwill.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.sneakyLeaks .wrapper {
+  background: url("../img/sneakyLeaks.JPG") no-repeat;
+  background-size: 100% 100%;
+}
+
 /* Nav Toggle */
 
 .nav-tgl {
