@@ -255,10 +255,6 @@ footer .social-icons a:hover {
     padding: 2.1875rem 2.8125rem;
 }
 
-.modal-dialog #connect-modal .modal-content .modal-body {
-    padding: 2.1875rem 1.8125rem;
-}
-
 .page-wrapper {
     position: relative;
     height: 100%;
@@ -910,7 +906,7 @@ input:focus {
 
 @media (max-width:768px) {
     .form {
-        width: 300px;
+        width: 285px;
         height: 530px;
         background: #e6e6e6;
         border-radius: 8px;
