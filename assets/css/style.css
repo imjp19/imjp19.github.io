@@ -180,7 +180,7 @@ footer {
 }
 
 footer .social-icons a {
-    opacity: 0.75;
+    opacity: 0.5;
     color: white;
     padding: 0.3125rem 0.625rem;
     display: inline-block;
@@ -303,6 +303,8 @@ footer .social-icons a:hover {
     padding: 0.3125rem;
     display: inline-block;
     font-size: 1.5rem;
+    text-align: center;
+    justify-content: center
 }
 
 
