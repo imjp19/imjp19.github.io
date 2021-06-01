@@ -266,16 +266,18 @@ footer .social-icons a:hover {
 
 .person h4 {
     margin-bottom: 0.3125rem;
+    font-size: 1.5rem;
 }
 
 .person h5 {
     margin-top: 0.3125rem;
+    font-size: 1rem;
 }
 
 .person .image {
     border-radius: 100%;
-    height: 7.5rem;
-    width: 7.5rem;
+    height: 9.5rem;
+    width: 9.5rem;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -286,6 +288,14 @@ footer .social-icons a:hover {
     color: #2f2e40;
     padding: 0.3125rem;
     display: inline-block;
+}
+
+.social-icons i {
+    font-size: 1.25rem
+}
+
+.social-icons i:hover {
+    opacity: 0.75;
 }
 
 .social-icons-tech i {
