@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="64px" viewBox="0 0 65 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>local_guides_24dp</title>
+    <defs>
+        <polygon id="path-1" points="0.5 0 64.5 0 64.5 64 0.5 64"></polygon>
+        <path d="M24.4562513,0 C10.9509659,0 0,10.8106355 0,24.1428585 C0,42.2500023 24.4562513,64.3809559 24.4562513,64.3809559 C24.4562513,64.3809559 48.9125027,42.2500023 48.9125027,24.1428585 C48.9125027,10.8106355 37.9615368,0 24.4562513,0 Z" id="path-3"></path>
+        <radialGradient cx="16.6090278%" cy="12.3588542%" fx="16.6090278%" fy="12.3588542%" r="100.2125%" gradientTransform="translate(0.166090,0.123589),scale(1.000000,0.759736),translate(-0.166090,-0.123589)" id="radialGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0.1" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lc_cta" transform="translate(-688.000000, -267.000000)">
+            <g id="local_guides_24dp" transform="translate(688.000000, 267.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="a"></g>
+                <g id="Group" mask="url(#mask-2)">
+                    <g transform="translate(8.500000, 0.000000)">
+                        <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Clipped">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="c"></g>
+                                <path d="M24.4562513,0 C10.9509659,0 0,10.8106355 0,24.1428585 C0,42.2500023 24.4562513,64.3809559 24.4562513,64.3809559 C24.4562513,64.3809559 48.9125027,42.2500023 48.9125027,24.1428585 C48.9125027,10.8106355 37.9615368,0 24.4562513,0 Z" id="Path" fill="#ED6D23" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                            </g>
+                        </g>
+                        <polygon id="Path" fill="#EEEEEE" fill-rule="nonzero" points="30.4004791 18.2748026 24.4562513 5.36507966 18.5120236 18.2748026 5.43472252 24.1428585 18.5120236 30.0109143 24.4562513 42.9206373 30.4004791 30.0109143 43.4777802 24.1428585"></polygon>
+                        <path d="M24.4562513,0 C10.9509659,0 0,10.8106355 0,24.1428585 C0,42.2500023 24.4562513,64.3809559 24.4562513,64.3809559 C24.4562513,64.3809559 48.9125027,42.2500023 48.9125027,24.1428585 C48.9125027,10.8106355 37.9615368,0 24.4562513,0 Z" id="Path" fill="url(#radialGradient-5)" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
