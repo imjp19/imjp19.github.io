@@ -89,7 +89,7 @@ $(document).ready(function($) {
 
 (function() {
 
-    var word = ['Web Dev 👨‍💻', 'App Dev 📱', 'Student 👨‍🎓', 'Co-Founder 🤵', 'Programming Enthusiast 🧑🏻‍💻'];
+    var word = ['Web Dev 👨‍💻', 'App Dev 📱', 'Student 👨‍🎓', 'Programming Enthusiast 🧑🏻‍💻'];
     var element = document.getElementsByClassName('flipText')[0];
     var wordIndex = 1;
 
@@ -123,16 +123,16 @@ $(document).ready(function($) {
             case 3:
                 element.classList.add('flip');
                 element.textContent = word[wordIndex];
-                wordIndex = 4;
-                setTimeout(resetAnimation, 1000);
-                break;
-
-            case 4:
-                element.classList.add('flip');
-                element.textContent = word[wordIndex];
                 wordIndex = 0;
                 setTimeout(resetAnimation, 1000);
                 break;
+
+                // case 4:
+                //     element.classList.add('flip');
+                //     element.textContent = word[wordIndex];
+                //     wordIndex = 0;
+                //     setTimeout(resetAnimation, 1000);
+                //     break;
         }
     }, 2000)
 }());
