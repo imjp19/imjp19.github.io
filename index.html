@@ -720,9 +720,9 @@
                                 <p type="Message:">
                                     <textarea id="message" name="message" placeholder=""></textarea>
                                 </p>
-                                <input type="hidden" name="date">
-                                <input type="hidden" name="time">
-                                <button type="submit">Submit</button>
+                                <input type="hidden" name="date" id="currentDate">
+                                <input type="hidden" name="time" id="currentTime">
+                                <button type="submit">Submit</buton>
                                 <br>
 
                             </form>
@@ -811,18 +811,19 @@
     <!-- Project JS File -->
     <script src="assets/js/script.js"></script>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxaQofpT7fO6MNSdluPGY2pA_rbwZqJxMA22zBSeEbjI9QGNg/exec'
-        const form = document.forms['connect']
-        var names = document.getElementById("name")
-        var email = document.getElementById("email")
-        var subject = document.getElementById("subject")
-        var message = document.getElementById("message")
         var today = new Date();
         var date = today.getDate() + '/' + (today.getMonth() + 1) + '/' + today.getFullYear();
         document.getElementById("currentDate").value = date;
 
         var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
         document.getElementById("currentTime").value = time;
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxaQofpT7fO6MNSdluPGY2pA_rbwZqJxMA22zBSeEbjI9QGNg/exec'
+        const form = document.forms['connect']
+        var names = document.getElementById("name")
+        var email = document.getElementById("email")
+        var subject = document.getElementById("subject")
+        var message = document.getElementById("message")
+
 
         form.addEventListener('submit', e => {
             e.preventDefault()
