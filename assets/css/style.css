@@ -449,6 +449,11 @@ footer .social-icons a:hover {
     background-size: 100% 100%;
 }
 
+.odeo .wrapper {
+    background: url("../img/odeo.png") no-repeat;
+    background-size: 100% 100%;
+}
+
 
 /* Nav Toggle */
 
