@@ -720,7 +720,8 @@
                                 <p type="Message:">
                                     <textarea id="message" name="message" placeholder=""></textarea>
                                 </p>
-
+                                <input type="hidden" name="date">
+                                <input type="hidden" name="time">
                                 <button type="submit">Submit</button>
                                 <br>
 
@@ -816,6 +817,12 @@
         var email = document.getElementById("email")
         var subject = document.getElementById("subject")
         var message = document.getElementById("message")
+        var today = new Date();
+        var date = today.getDate() + '/' + (today.getMonth() + 1) + '/' + today.getFullYear();
+        document.getElementById("currentDate").value = date;
+
+        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        document.getElementById("currentTime").value = time;
 
         form.addEventListener('submit', e => {
             e.preventDefault()
