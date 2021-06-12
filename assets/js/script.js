@@ -89,7 +89,7 @@ $(document).ready(function($) {
 
 (function() {
 
-    var word = ['Web Dev 👨‍💻', 'App Dev 📱', 'Student 👨‍🎓', 'Programming Enthusiast 🧑🏻‍💻'];
+    var word = ['Web Dev 👨‍💻', 'App Dev 📱', 'Student 👨‍🎓', 'CTO 👨‍💼'];
     var element = document.getElementsByClassName('flipText')[0];
     var wordIndex = 1;
 
